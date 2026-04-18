@@ -1,0 +1,18 @@
+h1 {
+	margin-top: 15px;
+}
+.wrapper {
+	display: flex;
+}
+#universalViewerContainer {
+	width: 55%; 
+	margin-right: 15px;
+}
+#uv{
+	height: 90vh;
+} 
+#leafletInstanceContainer {
+  margin-inline: auto;
+  width: 45%;
+  height: 90vh;
+}
