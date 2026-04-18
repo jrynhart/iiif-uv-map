@@ -4,6 +4,8 @@
 
 ### developer
 
+Jeff Rynhart
+University of Denver
 jeff.rynhart@du.edu
 
 # description
