@@ -119,11 +119,24 @@
   	let popupContent = "";
 
     if (feature.properties) {
+
       if(feature.properties.label.en) {
-        popupContent += `<div style="font-size: ${POPUP_LABEL_FONT_SIZE}"><strong>${feature.properties.label.en.toString()}</strong></div>`
+        popupContent += 
+
+					`<div style="font-size: ${POPUP_LABEL_FONT_SIZE}">
+						<strong>
+							${feature.properties.label.en.toString()}
+						</strong>
+					</div>`;
       }
+
       if(feature.properties.summary?.en) {
-        popupContent += `<br><div style="font-size: ${POPUP_SUMMARY_FONT_SIZE}">${feature.properties.summary.en.toString()}</div>`
+        popupContent += 
+				
+					`<br>
+					<div style="font-size: ${POPUP_SUMMARY_FONT_SIZE}">
+						${feature.properties.summary.en.toString()}
+					</div>`
       }
     }
     layer.bindPopup(popupContent)
